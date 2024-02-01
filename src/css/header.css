@@ -1,5 +1,5 @@
 .logo-title {
-    fill: #81AB3C;
+    fill: var(--main-green);
 }
 
 .logo-text {
