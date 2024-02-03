@@ -1,1 +1,1 @@
-{"version":3,"file":"commonHelpers.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
+{"version":3,"file":"commonHelpers.js","sources":["../src/js/load-page.js"],"sourcesContent":["const firstPage = document.querySelector('container-header-hero');\n\nwindow.addEventListener('load', loadPage);\n\nfunction loadPage() {\n    firstPage.classList.add('animation-load-page');\n}"],"names":["firstPage","loadPage"],"mappings":"ssBAAA,MAAMA,EAAY,SAAS,cAAc,uBAAuB,EAEhE,OAAO,iBAAiB,OAAQC,CAAQ,EAExC,SAASA,GAAW,CAChBD,EAAU,UAAU,IAAI,qBAAqB,CACjD"}
