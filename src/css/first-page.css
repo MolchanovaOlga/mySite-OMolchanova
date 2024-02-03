@@ -4,15 +4,20 @@
     align-items: center;
     justify-content: center;*/
     margin: 0 auto;
-    padding-top: 160px;
+    padding-top: 50px;
     width: 1200px;
+    padding-bottom: 80px;
+    position: absolute;
+    left: 8.33%
  
 }
 
 .container-header-hero {
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 50%, rgba(0, 0, 0, 0.3) 100%), url('../img/background_img.png');
-    background-size: cover;
-
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 50%, rgba(0, 0, 0, 0.3) 100%), url('../img/background_img.jpg');
+    background-size: fill;
+    width: 1440px;
+    height: 100%;
+    position: fixed;
 }
 
 .hero-container {
@@ -29,20 +34,20 @@
     position: relative;
 }
 
-/*.hero-hand-icon {
-    margin-bottom: 8px;
-}*/
-
 /*       --------------------------  text ------------------------------*/
+
+.hero-hand-icon {
+    margin-bottom: 8px;
+}
 
 .hero-text {
     width: 398px;
 }
 
 .hero-main-heading {
-    margin-bottom: 72px;
-    font-size: 60px;
-    line-height: 1.2;
+    margin-bottom: 48px;
+    font-size: 48px;
+    line-height: 0.75;
     font-weight: 700;
     color: var(--main-green);
 }
@@ -50,7 +55,7 @@
 .hero-main-paragraf {
     font-size: 20px;
     font-weight: 300;
-    line-height: 1.4;
+    line-height: 1.2;
     margin-bottom: 24px;
 }
 
@@ -62,7 +67,7 @@
 /*       --------------------------  button ------------------------------*/
 
 .button {
-    width: 232px;
+    width: 195px;
     height: 56px;
     border-radius: 36px;
     color: var(--main-white);
@@ -70,8 +75,15 @@
     font-family: inherit;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    font-size: 14px;
     font-weight: 700;
-    margin-top: 72px;
+    margin-top: 48px;
+}
+
+.button:hover,
+.button:focus {
+    color: var(--main-green);
+    background-color: var(--main-white);
 }
 
 /*       --------------------------  image ------------------------------*/
@@ -82,8 +94,8 @@
 }
 
 .hero-img {
-    width: 340px;
-    height: 581px;
+    width: 270px;
+    height: 478px;
     object-fit: cover;
 }
 
@@ -94,11 +106,75 @@
 
 /*       --------------------------  paragraf bottom ------------------------------*/
 
+.hero-page-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.paragraf-bottom-container {
+    display: flex;
+    justify-content: flex-end;    
+}
+
+.hide-text-bottom {
+    overflow: hidden;
+    width: 850px;
+}
+
 .hero-paragraf-bottom {
     color: var(--hover-gray);
     font-size: 20px;
     font-weight: 100;
     line-height: 1.2;
     text-transform: uppercase;
-    margin-top: 120px;
+    animation-name: noticeLine;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes noticeLine {
+    from {
+      transform: translateX(100%);
+    }
+  
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+/*       --------------------------  socials ------------------------------*/
+
+.hero-sotials {
+    display: flex;
+    gap: 24px;
+}
+
+.github-icon {
+    fill: var(--main-green)
+}
+
+.github-icon:hover,
+.github-icon:focus {
+    fill: var(--main-white);
+}
+
+.linkedin-icon {
+    fill: var(--main-green);
+}
+
+.linkedin-icon:hover,
+.linkedin-icon:focus {
+    fill:var(--main-white);
+}
+
+.telegram-icon {
+    fill: var(--main-green);
+}
+
+.telegram-icon:hover,
+.telegram-icon:focus {
+    fill: var(--main-white);
 }
