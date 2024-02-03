@@ -23,7 +23,8 @@
     fill: var(--main-green);
 }
 
-.logo:hover {
+.logo:hover,
+.logo:focus {
     transform: scale(1.1);
 }
 

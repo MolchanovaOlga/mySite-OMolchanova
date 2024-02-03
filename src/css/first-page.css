@@ -93,6 +93,10 @@
     overflow: hidden;
 }
 
+.hero-photo-container:hover {
+    transform: scale(1.01);
+}
+
 .hero-img {
     width: 270px;
     height: 478px;
@@ -120,7 +124,7 @@
 
 .hide-text-bottom {
     overflow: hidden;
-    width: 850px;
+    width: 600px;
 }
 
 .hero-paragraf-bottom {
@@ -131,6 +135,7 @@
     text-transform: uppercase;
     animation-name: noticeLine;
     animation-duration: 15s;
+    animation-delay: 3s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }

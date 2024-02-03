@@ -1,7 +1,7 @@
 const firstPage = document.querySelector('container-header-hero');
 
-window.addEventListener('load', loadPage);
+document.addEventListener('DOMContentLoaded', loadPage);
 
 function loadPage() {
-    firstPage.classList.add('animation-load-page');
+    document.body.classList.add('ready');
 }
