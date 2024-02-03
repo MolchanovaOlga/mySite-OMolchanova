@@ -3,12 +3,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-width: 1280px;
-    padding: 50px 120px 0;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
 }
 
 .header-elements {
     display: flex;
+    gap: 68px;
 }
 
 /*       --------------------------  headers logo  ------------------------------*/
@@ -33,7 +35,7 @@
 
 .header-contacts {
     display: flex;
-    margin-right: 68px;
+    gap: 48px;
 }
 
 .header-phone {
@@ -43,10 +45,6 @@
 .header-phone:hover,
 .header-phone:focus {
     transform: scale(1.1);
-}
-
-.header-contacts-item:first-child {
-    margin-right: 48px;
 }
 
 .header-phone-icon {
@@ -88,7 +86,6 @@
 /*       --------------------------  burger-menu button  ------------------------------*/
 
 .menu-btn {
-    margin-left: 78px;
     background-color: transparent;
 }
 
