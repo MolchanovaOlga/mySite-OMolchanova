@@ -1,0 +1,26 @@
+.github-icon {
+    fill: var(--main-green)
+}
+
+.github-icon:hover,
+.github-icon:focus {
+    fill: var(--main-white);
+}
+
+.linkedin-icon {
+    fill: var(--main-green);
+}
+
+.linkedin-icon:hover,
+.linkedin-icon:focus {
+    fill:var(--main-white);
+}
+
+.telegram-icon {
+    fill: var(--main-green);
+}
+
+.telegram-icon:hover,
+.telegram-icon:focus {
+    fill: var(--main-white);
+}
