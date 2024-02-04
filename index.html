@@ -15,11 +15,12 @@
     />
     
     <script type="module" crossorigin src="/mySite-OMolchanova/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/mySite-OMolchanova/assets/index-93a0da11.css">
+    <link rel="stylesheet" href="/mySite-OMolchanova/assets/index-8f516bd9.css">
   </head>
   <body>
-    <div class="container-header-hero animation-load-page">
-      <header class="header">
+    <div class="container">
+      <div class="container-header-hero animation-load-page">
+        <header class="header">
     <div class="logo">
         <a href="./first-page.html">
             <svg class="logo-title" width="90" height="63">
@@ -50,14 +51,14 @@
             <option value="UK">UK</option>
             <option value="EN">EN</option>
         </select>
-        <button class="menu-btn" type="button">
+        <button class="menu-btn" type="button" data-modal-open>
             <svg class="menu-btn-icon" width="58" height="30">
                 <use href="/mySite-OMolchanova/assets/sprite-a04fcd57.svg#icon-burger-menu"></use>
             </svg>
         </button>
     </div>
 </header>
-      <section class="hero-section">
+        <section class="hero-section">
   <div class="hero-container">
     <div class="hero-container-description">
       <div class="hero-text">
@@ -100,6 +101,55 @@
   </div>
 </section>
 
+      </div>
+      <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <div class="top-modal">
+            <div class="logo">
+                <a href="./first-page.html">
+                    <svg class="logo-title" width="90" height="63">
+                        <use href="/mySite-OMolchanova/assets/sprite-a04fcd57.svg#icon-logo"></use>
+                    </svg>
+                </a>
+            </div>
+            <button class="modal-close-button" type="button" data-modal-close>
+                <svg class="modal-close-icon" width="32" height="32">
+                    <use href="/mySite-OMolchanova/assets/sprite-a04fcd57.svg#icon-close"></use>
+                </svg>
+            </button>
+        </div>
+        <nav class="modal-navigation">
+            <ul class="modal-list">
+                <li class="modal-list-item">
+                    <a href="" class="modal-link">Головна</a>
+                </li>
+                <li class="modal-list-item">
+                    <a href="" class="modal-link">Про мене</a>
+                </li>
+                <li class="modal-list-item">
+                    <a href="" class="modal-link">Портфоліо</a>
+                </li>
+                <li class="modal-list-item">
+                    <a href="" class="modal-link">Резюме</a>
+                </li>
+                <li class="modal-list-item">
+                    <a href="" class="modal-link">Контакти</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="menu-socials">
+            <svg class="github-icon" width="24" height="24">
+                <use href="/mySite-OMolchanova/assets/sprite-a04fcd57.svg#icon-github"></use>
+            </svg>
+            <svg class="linkedin-icon" width="24" height="24">
+                <use href="/mySite-OMolchanova/assets/sprite-a04fcd57.svg#icon-linkedin"></use>
+            </svg>
+            <svg class="telegram-icon" width="24" height="24">
+                <use href="/mySite-OMolchanova/assets/sprite-a04fcd57.svg#icon-telegram"></use>
+            </svg>
+        </div>
+    </div>
+</div>
     </div>
     
   </body>
