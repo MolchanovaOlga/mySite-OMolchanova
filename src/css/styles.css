@@ -10,6 +10,7 @@
 @import url('./header.css');
 @import url('./first-page.css');
 @import url('./socials.css');
+@import url('./about-me.css');
 
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Shojumaru&display=swap');
@@ -27,5 +28,5 @@
 
 
   color: var(--main-white);
-  background-color: var(--main-white);
+  background-color: var(--main-black);
 }

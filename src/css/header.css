@@ -25,7 +25,8 @@
 
 .logo:hover,
 .logo:focus {
-    transform: scale(1.1);
+    transform: scale(1.03);
+    transition: transform 250ms linear;
 }
 
 .logo-text {
@@ -45,7 +46,8 @@
 
 .header-phone:hover,
 .header-phone:focus {
-    transform: scale(1.1);
+    transform: scale(1.01);
+    transition: transform 250ms linear;
 }
 
 .header-phone-icon {
@@ -56,6 +58,7 @@
 .header-phone-text:hover,
 .header-phone-text:focus {
     color: var(--hover-gray);
+    transition: color 250ms linear;
 }
 
 .header-mail {
@@ -64,7 +67,8 @@
 
 .header-mail:hover,
 .header-mail:focus {
-    transform: scale(1.1);
+    transform: scale(1.01);
+    transition: transform 250ms linear;
 }
 
 .header-mail-icon {
@@ -75,6 +79,7 @@
 .header-mail-text:hover,
 .header-mail-text:focus {
     color: var(--hover-gray);
+    transition: color 250ms linear;
 }
 
 /*       --------------------------  select lenguages ------------------------------*/
@@ -97,5 +102,8 @@
 .menu-btn-icon:hover,
 .menu-btn-icon:focus {
     stroke: var(--hover-gray);
+    transition: stroke 250ms linear;
     transform: scale(1.1);
+    transition: transform 250ms linear;
 }
+    

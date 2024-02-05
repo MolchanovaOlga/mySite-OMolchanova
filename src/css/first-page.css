@@ -83,7 +83,9 @@
 .button:hover,
 .button:focus {
     color: var(--main-green);
+    transition: color 250ms linear;
     background-color: var(--main-white);
+    transition: background-color 250ms linear;
 }
 
 /*       --------------------------  image ------------------------------*/
@@ -93,8 +95,10 @@
     overflow: hidden;
 }
 
-.hero-photo-container:hover {
+.hero-photo-container:hover,
+.hero-photo-container:focus {
     transform: scale(1.01);
+    transition: transform 250ms linear;
 }
 
 .hero-img {

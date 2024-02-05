@@ -54,13 +54,20 @@
 .modal-close-icon:hover,
 .modal-close-icon:focus {
     fill: var(--main-green);
+    transition: fill 250ms linear;
     transform: scale(1.1);
+    transition: transform 250ms linear;
 }
 
 /*       -------------------------- menu navigation ------------------------------*/
 
 .modal-list-item:not(:last-child) {
     margin-bottom: 48px;
+}
+
+.modal-list-item:hover {
+    transform: scale(1.02);
+    transition: transform 250ms linear;
 }
 
 .modal-link {
@@ -74,6 +81,7 @@
 .modal-link:hover,
 .modal-link:focus {
     color: var(--main-green);
+    transition: color 250ms linear;
 }
 
 /*       -------------------------- menu socials ------------------------------*/

@@ -1,3 +1,5 @@
+/*       --------------------------  github-icon ------------------------------*/
+
 .github-icon {
     fill: var(--main-green)
 }
@@ -5,7 +7,10 @@
 .github-icon:hover,
 .github-icon:focus {
     fill: var(--main-white);
+    transition: fill 250ms linear;
 }
+
+/*       --------------------------  linkedin-icon ------------------------------*/
 
 .linkedin-icon {
     fill: var(--main-green);
@@ -14,7 +19,10 @@
 .linkedin-icon:hover,
 .linkedin-icon:focus {
     fill:var(--main-white);
+    transition: fill 250ms linear;
 }
+
+/*       --------------------------  telegram-icon ------------------------------*/
 
 .telegram-icon {
     fill: var(--main-green);
@@ -23,4 +31,17 @@
 .telegram-icon:hover,
 .telegram-icon:focus {
     fill: var(--main-white);
+    transition: fill 250ms linear;
+}
+
+/*       --------------------------  instagram-icon ------------------------------*/
+
+.instagram-icon {
+    fill: var(--main-green);
+}
+
+.instagram-icon:hover,
+.instagram-icon:focus {
+    fill: var(--main-white);
+    transition: fill 250ms linear;
 }
