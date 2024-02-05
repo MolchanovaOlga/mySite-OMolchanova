@@ -4,27 +4,12 @@
     align-items: center;
     justify-content: center;*/
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 60px;
     width: 1200px;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
     /*position: absolute;
     left: 8.33%;*/
 }
-
-.container-header-hero {
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 50%, rgba(0, 0, 0, 0.3) 100%), url('../img/background_img.jpg');
-    width: 1440px;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-/*.hero-container {
-    display: flex;
-    flex-direction: column;
-    /*margin: 0 auto;
-}*/
 
 .hero-container-description {
     display: flex;
@@ -42,6 +27,10 @@
 
 .hero-text {
     width: 398px;
+}
+
+.hero-paragraf {
+    margin-bottom: 48px;
 }
 
 .hero-main-heading {
@@ -62,30 +51,6 @@
 .main-paragraf-accentuate {
     font-weight: 400;
     color: var(--main-green);
-}
-
-/*       --------------------------  button ------------------------------*/
-
-.button {
-    width: 195px;
-    height: 56px;
-    border-radius: 36px;
-    color: var(--main-white);
-    background-color: var(--main-green);
-    font-family: inherit;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 700;
-    margin-top: 48px;
-}
-
-.button:hover,
-.button:focus {
-    color: var(--main-green);
-    transition: color 250ms linear;
-    background-color: var(--main-white);
-    transition: background-color 250ms linear;
 }
 
 /*       --------------------------  image ------------------------------*/
@@ -109,21 +74,13 @@
 
 /*       --------------------------  paragraf bottom ------------------------------*/
 
-.hero-page-bottom {
+.hide-text-bottom {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-top: 60px;
-}
-
-.paragraf-bottom-container {
-    display: flex;
-    justify-content: flex-end;    
-}
-
-.hide-text-bottom {
+    justify-content: center;
+    margin-top: 60px; 
     overflow: hidden;
-    width: 600px;
+    width: 100%;
 }
 
 .hero-paragraf-bottom {
@@ -147,11 +104,4 @@
     to {
       transform: translateX(-100%);
     }
-}
-
-/*       -------------------------- hero socials ------------------------------*/
-
-.hero-sotials {
-    display: flex;
-    gap: 24px;
 }
