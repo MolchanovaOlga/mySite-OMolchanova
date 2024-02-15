@@ -26,27 +26,50 @@
 }
 
 .modal {
-    width: 1440px;
+    min-width: 320px;
+    max-width: 375px;
     background-size: cover;
-    display: flex;
-    justify-content: center;
-}
-
-.modal-content {
-    width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto;
-    padding-top: 20px;
-    padding-bottom: 50px;
+    padding: 24px 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1249px) {
+    .modal {
+        min-width: 768px;
+        max-width: 1200px;
+        padding: 48px 50px 48px 50px;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .modal {
+        min-width: 1200px;
+        margin: 0 auto;
+        padding: 30px;
+    }
+}
+
+/*       -------------------------- close button ------------------------------*/
+
+.logo-icon {
+    width: 70px;
+    height: 47px;
+}
+
+@media screen and (min-width: 768px) {
+    .logo-icon {
+    width: 90px;
+    height: 63px;
+    }
 }
 
 /*       -------------------------- close button ------------------------------*/
 
 .top-modal {
-    min-width: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -58,6 +81,15 @@
 
 .modal-close-icon {
     fill: var(--main-white);
+    width: 24px;
+    height: 24px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1249px) {
+    .modal-close-icon {
+        width: 30px;
+        height: 30px;
+    }
 }
 
 .modal-close-icon:hover,
@@ -71,7 +103,13 @@
 /*       -------------------------- menu navigation ------------------------------*/
 
 .modal-list-item:not(:last-child) {
-    margin-bottom: 48px;
+    margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .modal-list-item:not(:last-child) {
+        margin-bottom: 48px;
+    }
 }
 
 .modal-list-item:hover {
@@ -80,11 +118,18 @@
 }
 
 .modal-link {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 300;
     text-transform: uppercase;
-    line-height: 1.2;
+    line-height: 1.75;
     color: var(--main-white);
+}
+
+@media screen and (min-width: 768px) {
+    .modal-link {
+        font-size: 24px;
+        line-height: 1.2;
+    }
 }
 
 .modal-link:hover,
@@ -98,7 +143,25 @@
 .menu-socials-list {
     width: 100%;
     display: flex;
-    gap: 24px;
+    gap: 30px;
 }
 
+.menu-social-icon {
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1249px) {
+    .menu-social-icon {
+        width: 36px;
+        height: 36px;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .menu-social-icon {
+        width: 24px;
+        height: 24px;
+    }
+}
 

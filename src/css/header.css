@@ -100,13 +100,13 @@
 }
 
 .header-phone-icon {
-    fill: var(--selected-grey);
+    fill: var(--hover-gray);
     margin-right: 8px;
 }
 
 .header-phone-text:hover,
 .header-phone-text:focus {
-    color: var(--hover-gray);
+    color: var(--selected-grey);
     transition: color 250ms linear;
 }
 
@@ -121,13 +121,13 @@
 }
 
 .header-mail-icon {
-    fill: var(--selected-grey);
+    fill: var(--hover-gray);
     margin-right: 8px;
 }
 
 .header-mail-text:hover,
 .header-mail-text:focus {
-    color: var(--hover-gray);
+    color: var(--selected-grey);
     transition: color 250ms linear;
 }
 

@@ -154,7 +154,7 @@
 
 .main-paragraf-accentuate {
     font-weight: 400;
-    color: var(--selected-grey);
+    color: var(--hover-gray);
 }
 
 .hero-paragraf {
