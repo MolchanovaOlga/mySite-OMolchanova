@@ -1,7 +1,7 @@
 /*       --------------------------  github-icon ------------------------------*/
 
 .github-icon {
-    fill: var(--main-green)
+    fill: var(--selected-grey)
 }
 
 .github-icon:hover,
@@ -13,7 +13,7 @@
 /*       --------------------------  linkedin-icon ------------------------------*/
 
 .linkedin-icon {
-    fill: var(--main-green);
+    fill: var(--selected-grey);
 }
 
 .linkedin-icon:hover,
@@ -25,7 +25,7 @@
 /*       --------------------------  telegram-icon ------------------------------*/
 
 .telegram-icon {
-    fill: var(--main-green);
+    fill: var(--selected-grey);
 }
 
 .telegram-icon:hover,
@@ -37,7 +37,7 @@
 /*       --------------------------  instagram-icon ------------------------------*/
 
 .instagram-icon {
-    fill: var(--main-green);
+    fill: var(--selected-grey);
 }
 
 .instagram-icon:hover,

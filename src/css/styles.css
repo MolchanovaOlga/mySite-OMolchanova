@@ -19,8 +19,10 @@
 :root {
   --main-white: #F8F8F8;
   --main-green: #81AB3C;
-  --main-black: #000;
+  --main-black: #1A1A1A;
   --hover-gray: #9e9d9d;
+  --selected-grey: #888888; 
+  --lines-grey-color: rgba(136, 136, 136, 0.7);
 
   font-family: Montserrat, sans-serif;
   font-size: 16px;
