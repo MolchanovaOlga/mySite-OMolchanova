@@ -21,6 +21,32 @@
         <div class="hero-photo-container">
           <picture>
             <source
+            media="(max-width: 767px)"
+            srcset="
+            ./img/1-mob-1x.jpg    1x,
+            ./img/1-mob-2x.jpg  2x
+            "
+            />
+            <source
+              media="(min-width: 768px) and (max-width: 1249px)"
+              srcset="
+              ./img/1-tabl-1x.jpg    1x,
+            ./img/1-tabl-2x.jpg  2x
+              "
+            />
+            <source
+            media="(max-width: 1250px)"
+            srcset="
+            ./img/1-desk-1x.jpg    1x,
+            ./img/1-desk-2x.jpg  2x
+            "
+            />
+            <img
+              src="./img/1-desk-1x.jpg"
+              alt="Olga Molchanova's photo"
+              class="hero-img"
+            />
+            <!--<source
               media="(max-width: 374px)"
               srcset="
                 ./img/Olga_Molchanova's_photo-mob-1x.jpg    1x,
@@ -45,7 +71,7 @@
               src="./img/Olga_Molchanova's_photo-desk-1x.jpg"
               alt="Olga Molchanova's photo"
               class="hero-img"
-            />
+            />-->
        </picture>
         </div>
       </a>
