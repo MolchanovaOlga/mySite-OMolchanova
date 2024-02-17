@@ -19,7 +19,34 @@
       </div>
       <a class="hero-photo-link" href="about-me-page.html">
         <div class="hero-photo-container">
-          <img class="hero-img" src="./img/Olga_Molchanova's_photo.png" alt="Olga Molchanova's photo"/>
+          <picture>
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ./img/Olga_Molchanova's_photo-mob-1x.jpg    1x,
+                ./img/Olga_Molchanova's_photo-mob-2x.jpg  2x
+              "
+            />
+            <source
+              media="(min-width: 768px) and (max-width: 1249px)"
+              srcset="
+                ./img/Olga_Molchanova's_photo-tabl-1x.jpg   1x,
+                ./img/Olga_Molchanova's_photo-tabl-2x.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 1250px)"
+              srcset="
+                ./img/Olga_Molchanova's_photo-desk-1x.jpg 1x,
+                ./img/Olga_Molchanova's_photo-desk-2x.jpg 2x
+              "
+            />
+            <img
+              src="./img/Olga_Molchanova's_photo-desk-1x.jpg"
+              alt="Olga Molchanova's photo"
+              class="hero-img"
+            />
+       </picture>
         </div>
       </a>
     </div>

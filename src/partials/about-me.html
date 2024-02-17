@@ -128,7 +128,34 @@
     </div>
     <div class="about-me-right">
         <div class="about-me-image-container">
-            <img class="about-me-image" src="./img/about_me_photo.png" alt="About me photo"/>
+            <picture>
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./img/about-me-photo-mob-1x.jpg    1x,
+                    ./img/about-me-photo-mob-2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 768px) and (max-width: 1249px)"
+                  srcset="
+                    ./img/about-me-photo-tabl-1x.jpg    1x,
+                    ./img/about-me-photo-tabl-2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1250px)"
+                  srcset="
+                    ./img/about-me-photo-desk-1x.jpg 1x,
+                    ./img/about-me-photo-desk-2x.jpg 2x
+                  "
+                />
+                <img
+                  src="./img/about-me-photo-desk-1x.jpg"
+                  alt="About me photo"
+                  class="about-me-image"
+                />
+            </picture>
         </div>
         <p class="about-me-button-text">
             Буду рада познайомитись та стати членом Вашої команди!
