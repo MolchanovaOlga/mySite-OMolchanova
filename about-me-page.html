@@ -14,8 +14,8 @@
       referrerpolicy="no-referrer"
     />
     
-    <script type="module" crossorigin src="/mySite-OMolchanova/assets/menu-a3e5bdbd.js"></script>
-    <link rel="stylesheet" href="/mySite-OMolchanova/assets/menu-082b1166.css">
+    <script type="module" crossorigin src="/mySite-OMolchanova/assets/menu-61672b3d.js"></script>
+    <link rel="stylesheet" href="/mySite-OMolchanova/assets/menu-22b17cc1.css">
   </head>
   <body>
     <div class="container">
@@ -188,7 +188,25 @@
     </div>
     <div class="about-me-right">
         <div class="about-me-image-container">
-            <img class="about-me-image" src="/mySite-OMolchanova/assets/about_me_photo-a2ccaa4c.png" alt="About me photo"/>
+            <picture>
+                <source
+                  media="(max-width: 767px)"
+                  srcset="/mySite-OMolchanova/assets/about-me-photo-mob-1x-fb8cb65d.jpg 1x, /mySite-OMolchanova/assets/about-me-photo-mob-2x-74c7e9c0.jpg 2x"
+                />
+                <source
+                  media="(min-width: 768px) and (max-width: 1249px)"
+                  srcset="/mySite-OMolchanova/assets/about-me-photo-tabl-1x-aa259a74.jpg 1x, /mySite-OMolchanova/assets/about-me-photo-tabl-2x-1da15895.jpg 2x"
+                />
+                <source
+                  media="(min-width: 1250px)"
+                  srcset="/mySite-OMolchanova/assets/about-me-photo-desk-1x-1374cb8f.jpg 1x, /mySite-OMolchanova/assets/about-me-photo-desk-2x-b82cabac.jpg 2x"
+                />
+                <img
+                  src="/mySite-OMolchanova/assets/about-me-photo-desk-1x-1374cb8f.jpg"
+                  alt="About me photo"
+                  class="about-me-image"
+                />
+            </picture>
         </div>
         <p class="about-me-button-text">
             Буду рада познайомитись та стати членом Вашої команди!
