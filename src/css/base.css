@@ -22,7 +22,7 @@
 }*/
 
 body {
-  background-image: linear-gradient(90deg, rgba(57, 71, 61, 0.97) 70%, rgba(57, 71, 61, 0.6) 100%), url('../img/background-tabl-mod-1x.jpg');
+  background-image: linear-gradient(90deg, rgba(57, 71, 61, 0.96) 50%, rgba(0, 0, 0, 0.3) 90%), url('../img/background-desk-1x.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -32,19 +32,19 @@ body {
 
 @media only screen and (min-resolution: 192dpi) {
   body {
-    background-image: linear-gradient(90deg, rgba(57, 71, 61, 0.97) 70%, rgba(57, 71, 61, 0.6) 100%), url('../img/background-tabl-mod-2x.jpg');
+    background-image: linear-gradient(90deg, rgba(57, 71, 61, 0.96) 50%, rgba(0, 0, 0, 0.3) 90%), url('../img/background-desk-2x.jpg');
   }
 }
 
 @media screen and (min-width:1250px) {
   body {
-    background-image: linear-gradient(90deg, rgba(57, 71, 61, 0.97) 70%, rgba(57, 71, 61, 0.6) 100%), url('../img/background-desk-1x.jpg');
+    background-image: linear-gradient(90deg, rgba(57, 71, 61, 0.96) 70%, rgba(0, 0, 0, 0.3) 90%), url('../img/background-desk-1x.jpg');
   }
 }
 
 @media only screen and (min-width: 1250px) and (min-resolution: 192dpi) {
   body {
-    background-image: linear-gradient(90deg, rgba(57, 71, 61, 0.97) 70%, rgba(57, 71, 61, 0.6) 100%), url('../img/background-desk-2x.jpg');
+    background-image: linear-gradient(90deg, rgba(57, 71, 61, 0.96) 50%, rgba(0, 0, 0, 0.3) 90%), url('../img/background-desk-2x.jpg');
   }
 }
 
